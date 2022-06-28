@@ -22,6 +22,6 @@ A5/1 algorithm is a very popular stream cipher used nowadays. You can refer the 
 - Step 3 marks the end of initialization step. Now clock the LFSRs 100 times with Majority Logic. Ignore these outputs.
 - Now we start the generation of pseudo random keystream. Clock the LFSRs using Majority Logic and XOR the LSB bits of LFSRs to get single bit key.
 - XOR this generated key with the input bit to get the encrypted bit.
-- Each bit of every pixel value is used as the input bit one by one to get final image.
+- Each bit of every pixel value is used as the input bit one by one to get the final image.
 
 An example test image and its respective encrypted image is given in the folder "Example Images".
